@@ -1,0 +1,75 @@
+{
+    "auth": "none",
+    "calls": {
+        "AAG": {
+            "doc_link": "https://developers.google.com/youtube/v3/docs/search/list",
+            "initialized": true,
+            "method": "get",
+            "name": "Get videos under channel YWA",
+            "params": {
+                "AAI": {
+                    "key": "part",
+                    "private": true,
+                    "value": "snippet"
+                },
+                "AAJ": {
+                    "key": "key",
+                    "private": true,
+                    "value": "AIzaSyAlnTuTxIznXXXs2cua30HwpeOf1q-zDNI"
+                },
+                "AAK": {
+                    "key": "maxResults",
+                    "optional": false,
+                    "private": true,
+                    "value": "25"
+                },
+                "AAL": {
+                    "key": "channelId",
+                    "private": true,
+                    "value": "UCFKE7WVJfvaHW5q283SxchA"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1590401564534x308095630400815100.plugin_api.AAG",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAG\":{\"caption\":\"Get videos under channel YWA\",\"fields\":{\"_p_kind\":{\"ret_value\":\"_ignore\"},\"_p_etag\":{\"ret_value\":\"_ignore\"},\"_p_nextPageToken\":{\"ret_value\":\"text\",\"caption\":\"nextPageToken\",\"path\":[\"nextPageToken\"]},\"_p_regionCode\":{\"ret_value\":\"_ignore\"},\"_p_pageInfo.totalResults\":{\"ret_value\":\"number\",\"caption\":\"pageInfo totalResults\",\"path\":[\"pageInfo\",\"totalResults\"]},\"_p_pageInfo.resultsPerPage\":{\"ret_value\":\"number\",\"caption\":\"pageInfo resultsPerPage\",\"path\":[\"pageInfo\",\"resultsPerPage\"]},\"_p_items\":{\"ret_value\":\"list.api.1590401564534x308095630400815100.plugin_api.AAG.items\",\"caption\":\"items\",\"path\":[\"items\"]}}},\"plugin_api.AAG.items\":{\"caption\":\"Get videos under channel YWA item\",\"fields\":{\"_p_kind\":{\"ret_value\":\"text\",\"caption\":\"kind\",\"path\":[\"kind\"]},\"_p_etag\":{\"ret_value\":\"text\",\"caption\":\"etag\",\"path\":[\"etag\"]},\"_p_id.kind\":{\"ret_value\":\"text\",\"caption\":\"id kind\",\"path\":[\"id\",\"kind\"]},\"_p_id.videoId\":{\"ret_value\":\"text\",\"caption\":\"id videoId\",\"path\":[\"id\",\"videoId\"]},\"_p_snippet.publishedAt\":{\"ret_value\":\"text\",\"caption\":\"snippet publishedAt\",\"path\":[\"snippet\",\"publishedAt\"]},\"_p_snippet.channelId\":{\"ret_value\":\"text\",\"caption\":\"snippet channelId\",\"path\":[\"snippet\",\"channelId\"]},\"_p_snippet.title\":{\"ret_value\":\"text\",\"caption\":\"snippet title\",\"path\":[\"snippet\",\"title\"]},\"_p_snippet.description\":{\"ret_value\":\"text\",\"caption\":\"snippet description\",\"path\":[\"snippet\",\"description\"]},\"_p_snippet.thumbnails.default.url\":{\"ret_value\":\"text\",\"caption\":\"snippet thumbnails default url\",\"path\":[\"snippet\",\"thumbnails\",\"default\",\"url\"]},\"_p_snippet.thumbnails.default.width\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails default width\",\"path\":[\"snippet\",\"thumbnails\",\"default\",\"width\"]},\"_p_snippet.thumbnails.default.height\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails default height\",\"path\":[\"snippet\",\"thumbnails\",\"default\",\"height\"]},\"_p_snippet.thumbnails.medium.url\":{\"ret_value\":\"text\",\"caption\":\"snippet thumbnails medium url\",\"path\":[\"snippet\",\"thumbnails\",\"medium\",\"url\"]},\"_p_snippet.thumbnails.medium.width\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails medium width\",\"path\":[\"snippet\",\"thumbnails\",\"medium\",\"width\"]},\"_p_snippet.thumbnails.medium.height\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails medium height\",\"path\":[\"snippet\",\"thumbnails\",\"medium\",\"height\"]},\"_p_snippet.thumbnails.high.url\":{\"ret_value\":\"text\",\"caption\":\"snippet thumbnails high url\",\"path\":[\"snippet\",\"thumbnails\",\"high\",\"url\"]},\"_p_snippet.thumbnails.high.width\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails high width\",\"path\":[\"snippet\",\"thumbnails\",\"high\",\"width\"]},\"_p_snippet.thumbnails.high.height\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails high height\",\"path\":[\"snippet\",\"thumbnails\",\"high\",\"height\"]},\"_p_snippet.channelTitle\":{\"ret_value\":\"text\",\"caption\":\"snippet channelTitle\",\"path\":[\"snippet\",\"channelTitle\"]},\"_p_snippet.liveBroadcastContent\":{\"ret_value\":\"text\",\"caption\":\"snippet liveBroadcastContent\",\"path\":[\"snippet\",\"liveBroadcastContent\"]},\"_p_snippet.publishTime\":{\"ret_value\":\"text\",\"caption\":\"snippet publishTime\",\"path\":[\"snippet\",\"publishTime\"]}}}}",
+            "url": "https://www.googleapis.com/youtube/v3/search"
+        },
+        "AAM": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get videos content",
+            "params": {
+                "AAN": {
+                    "key": "part",
+                    "private": true,
+                    "value": "contentDetails,snippet"
+                },
+                "AAO": {
+                    "key": "key",
+                    "private": true,
+                    "value": "AIzaSyAlnTuTxIznXXXs2cua30HwpeOf1q-zDNI"
+                },
+                "AAP": {
+                    "key": "maxResults",
+                    "private": true,
+                    "value": "25"
+                },
+                "AAQ": {
+                    "key": "id",
+                    "private": true,
+                    "value": "X3-gKPNyrTA"
+                }
+            },
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1590401564534x308095630400815100.plugin_api.AAM",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.AAM\":{\"caption\":\"Get videos content\",\"fields\":{\"_p_kind\":{\"ret_value\":\"_ignore\"},\"_p_etag\":{\"ret_value\":\"_ignore\"},\"_p_items\":{\"ret_value\":\"list.api.1590401564534x308095630400815100.plugin_api.AAM.items\",\"caption\":\"items\",\"path\":[\"items\"]},\"_p_pageInfo.totalResults\":{\"ret_value\":\"number\",\"caption\":\"pageInfo totalResults\",\"path\":[\"pageInfo\",\"totalResults\"]},\"_p_pageInfo.resultsPerPage\":{\"ret_value\":\"number\",\"caption\":\"pageInfo resultsPerPage\",\"path\":[\"pageInfo\",\"resultsPerPage\"]}}},\"plugin_api.AAM.items\":{\"caption\":\"Get videos content item\",\"fields\":{\"_p_kind\":{\"ret_value\":\"_ignore\"},\"_p_etag\":{\"ret_value\":\"_ignore\"},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_snippet.publishedAt\":{\"ret_value\":\"text\",\"caption\":\"snippet publishedAt\",\"path\":[\"snippet\",\"publishedAt\"]},\"_p_snippet.channelId\":{\"ret_value\":\"text\",\"caption\":\"snippet channelId\",\"path\":[\"snippet\",\"channelId\"]},\"_p_snippet.title\":{\"ret_value\":\"text\",\"caption\":\"snippet title\",\"path\":[\"snippet\",\"title\"]},\"_p_snippet.description\":{\"ret_value\":\"text\",\"caption\":\"snippet description\",\"path\":[\"snippet\",\"description\"]},\"_p_snippet.thumbnails.default.url\":{\"ret_value\":\"text\",\"caption\":\"snippet thumbnails default url\",\"path\":[\"snippet\",\"thumbnails\",\"default\",\"url\"]},\"_p_snippet.thumbnails.default.width\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails default width\",\"path\":[\"snippet\",\"thumbnails\",\"default\",\"width\"]},\"_p_snippet.thumbnails.default.height\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails default height\",\"path\":[\"snippet\",\"thumbnails\",\"default\",\"height\"]},\"_p_snippet.thumbnails.medium.url\":{\"ret_value\":\"text\",\"caption\":\"snippet thumbnails medium url\",\"path\":[\"snippet\",\"thumbnails\",\"medium\",\"url\"]},\"_p_snippet.thumbnails.medium.width\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails medium width\",\"path\":[\"snippet\",\"thumbnails\",\"medium\",\"width\"]},\"_p_snippet.thumbnails.medium.height\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails medium height\",\"path\":[\"snippet\",\"thumbnails\",\"medium\",\"height\"]},\"_p_snippet.thumbnails.high.url\":{\"ret_value\":\"text\",\"caption\":\"snippet thumbnails high url\",\"path\":[\"snippet\",\"thumbnails\",\"high\",\"url\"]},\"_p_snippet.thumbnails.high.width\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails high width\",\"path\":[\"snippet\",\"thumbnails\",\"high\",\"width\"]},\"_p_snippet.thumbnails.high.height\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails high height\",\"path\":[\"snippet\",\"thumbnails\",\"high\",\"height\"]},\"_p_snippet.thumbnails.standard.url\":{\"ret_value\":\"text\",\"caption\":\"snippet thumbnails standard url\",\"path\":[\"snippet\",\"thumbnails\",\"standard\",\"url\"]},\"_p_snippet.thumbnails.standard.width\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails standard width\",\"path\":[\"snippet\",\"thumbnails\",\"standard\",\"width\"]},\"_p_snippet.thumbnails.standard.height\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails standard height\",\"path\":[\"snippet\",\"thumbnails\",\"standard\",\"height\"]},\"_p_snippet.thumbnails.maxres.url\":{\"ret_value\":\"text\",\"caption\":\"snippet thumbnails maxres url\",\"path\":[\"snippet\",\"thumbnails\",\"maxres\",\"url\"]},\"_p_snippet.thumbnails.maxres.width\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails maxres width\",\"path\":[\"snippet\",\"thumbnails\",\"maxres\",\"width\"]},\"_p_snippet.thumbnails.maxres.height\":{\"ret_value\":\"number\",\"caption\":\"snippet thumbnails maxres height\",\"path\":[\"snippet\",\"thumbnails\",\"maxres\",\"height\"]},\"_p_snippet.channelTitle\":{\"ret_value\":\"text\",\"caption\":\"snippet channelTitle\",\"path\":[\"snippet\",\"channelTitle\"]},\"_p_snippet.tags\":{\"ret_value\":\"list.text\",\"caption\":\"snippet tags\",\"path\":[\"snippet\",\"tags\"]},\"_p_snippet.categoryId\":{\"ret_value\":\"text\",\"caption\":\"snippet categoryId\",\"path\":[\"snippet\",\"categoryId\"]},\"_p_snippet.liveBroadcastContent\":{\"ret_value\":\"text\",\"caption\":\"snippet liveBroadcastContent\",\"path\":[\"snippet\",\"liveBroadcastContent\"]},\"_p_snippet.localized.title\":{\"ret_value\":\"text\",\"caption\":\"snippet localized title\",\"path\":[\"snippet\",\"localized\",\"title\"]},\"_p_snippet.localized.description\":{\"ret_value\":\"text\",\"caption\":\"snippet localized description\",\"path\":[\"snippet\",\"localized\",\"description\"]},\"_p_snippet.defaultAudioLanguage\":{\"ret_value\":\"_ignore\"},\"_p_contentDetails.duration\":{\"ret_value\":\"text\",\"caption\":\"contentDetails duration\",\"path\":[\"contentDetails\",\"duration\"]},\"_p_contentDetails.dimension\":{\"ret_value\":\"_ignore\"},\"_p_contentDetails.definition\":{\"ret_value\":\"_ignore\"},\"_p_contentDetails.caption\":{\"ret_value\":\"_ignore\"},\"_p_contentDetails.licensedContent\":{\"ret_value\":\"_ignore\"},\"_p_contentDetails.projection\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://www.googleapis.com/youtube/v3/videos"
+        }
+    },
+    "human": "Youtube Search",
+    "token_param_name": "Authorization"
+}

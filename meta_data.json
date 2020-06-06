@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "video"
+    },
+    "description": "Get videos in a Youtube channel including title, duration, tags, id",
+    "image": "//s3.amazonaws.com/appforest_uf/f1591450624549x296084340280108800/Screen%20Shot%202020-06-06%20at%209.36.52%20PM.png",
+    "license": "open_source",
+    "name": "Youtube videos of a Channel"
+}
